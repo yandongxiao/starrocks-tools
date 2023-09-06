@@ -12,6 +12,7 @@ import (
 
 var _rootDir string
 
+// Prompts:
 // 我想使用 Golang 编写一个工具，它以目录为输入，遍历目录下的 Markdown 文件，从markdown文件中读取并检查链接，如果失效，就输出到标准输出。 请帮我写出这个工具。
 func main() {
 	if len(os.Args) != 2 {
